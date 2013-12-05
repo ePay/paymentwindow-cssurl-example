@@ -1,0 +1,156 @@
+﻿/* Oversigt over standard devices -> http://css-tricks.com/snippets/css/media-queries-for-standard-devices/ */
+
+@media only screen and (max-width : 420px) {
+
+#epay_content_bottom_content_center
+{
+	width:180px;
+	background:none;
+}
+
+#epay_content_bottom_content
+{
+	height:100px;
+	background:none;
+	background-color:#F2F2F2;
+}
+
+#epay_main, #epay_header, #epay_content
+{
+	width:320px;
+}
+
+.epay_payment_goto, .epay_payment_logos, #epay_main_header, #epay_header_content_right, #epay_main_footer, #epay_content_bottom_language, #epay_content_bottom_bottom, #epay_content_bottom_secure, .info, #epay_header_content_right,#epay_steps
+{
+	display:none !important;
+}
+
+
+#epay_paymentfooter
+{
+	margin:0;
+}
+
+#epay_paymentcollection
+{
+	border-bottom:0;
+}
+
+.epay_payment_button
+{
+	margin-top:-75px;
+	float:none;
+}
+
+#epay_paymentinfo
+{
+	height: 40px;
+	padding-bottom:100px;
+}
+
+#epay_header_top, #epay_header_bottom, #epay_content_top
+{
+	background:white;
+	border-radius:10px;
+}
+
+#epay_notpaymentcard_form table
+{
+	width:280px !important;
+}
+
+#epay_notpaymentcard_form table tr td span {
+
+	background:none;
+	background-color:#F2F2F2;
+	border-radius: 6px 6px 6px 6px;
+}
+
+#epay_loader
+{
+	width:480px !important;
+}
+
+#epay_accept
+{
+	border-bottom:0;
+}
+
+#epay_accept_info_right
+{
+	width:281px !important;
+	border-top:1px solid #d6d9dd;
+}
+
+.mobilenumber_label
+{
+	width:130px !important;
+}
+
+.mobilepayment_error
+{
+	width:255px !important;
+}
+
+.mobilepayment_description
+{
+	width:270px !important;
+}
+
+#epay_header_bottom
+{
+	background:white;
+	border-radius:0 0 6px 6px;
+}
+
+#epay_paymentinfo ul, #epay_paymentinfo_full ul
+{
+	height:90px;
+}
+
+#epay_header_top, #epay_content_top
+{
+	border-radius:6px 6px 0 0;
+}
+
+#epay_paymentcards_form label
+{
+	width:100%;
+}
+
+#epay_paymentcards_form ul li
+{
+	height:100px;
+	margin-top:0;
+	
+}
+
+#epay_main_content
+{
+background:none;
+}
+
+#epay_main
+{
+	left:0;
+	margin-left:0;
+	padding-left:0;
+
+}
+
+#epay_header_content_left
+{
+	width:100%;
+	background:none;
+}
+
+#epay_testmode_message
+{
+	width:100%;
+	text-align:center;
+	background:none;
+	color:red;
+}
+
+
+}
